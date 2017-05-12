@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://www.bennetitdrvtest.com/CommerceCore/assets/formCheck/jquery-ui.min.css">
+        <link rel="stylesheet" href="http://www.bennetitdrvtest.com/CommerceCore/assets/css/formCheck.css">
+
+        <script
+          src="https://code.jquery.com/jquery-1.12.4.min.js"
+          integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+          crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="http://www.bennetitdrvtest.com/CommerceCore/assets/formCheck/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="http://www.bennetitdrvtest.com/CommerceCore/assets/js/jquery.selectbox-0.2.js"></script>
+        <script type="text/javascript" src="http://www.bennetitdrvtest.com/CommerceCore/resources/js/jquery.4C.user.registration.v2.js"></script>
+    </head>
+    <body>
+        <div id="widgetUserReg"></div>
+        <script>
+            $(document).ready(function () {
+ 
+                var options = {
+                    presentation_manager: driveReg,
+                    afterConfirmMailRedirectUrl: "XXXX", //url di redirezione per verifica mail. Deve tornare in una pagina in cui è presente il widget
+                    accessToken: "",       // non usato per bennet.com
+                    salesforceToken: "", // non usato per bennet.com solo per salesforce
+                    customerIdMDM: "", // non usato per bennet.com solo per salesforce
+                    channelType: "Bennet.com"        // Bennet.com / Crm (per saleforce)
+                };
+ 
+                new $.reg_manager(options);
+ 
+            });
+        </script>
+    </body>
+</html>

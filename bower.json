@@ -1,0 +1,9 @@
+{
+    "name": "Bennet_stores_experiences",
+    "version": "1.0.0",
+    "dependencies": {
+        "es5-shim": "^4.5.9",
+        "uikit": "^3.0.0",
+        "font-awesome": "^4.7.0"
+    }
+}
