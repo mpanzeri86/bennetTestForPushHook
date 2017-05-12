@@ -36,6 +36,7 @@ module.exports = {
     dev: {
         entry: {
             app: './<%= paths.source.javascripts %>/app',
+            prenotazioniApp: './<%= paths.source.javascripts %>/prenotazioniApp',
         },
         debug: true,
         devtool: 'source-map',
@@ -43,6 +44,7 @@ module.exports = {
     prod: {
         entry: {
             'app.min': './<%= paths.source.javascripts %>/app',
+            'prenotazioniApp.min': './<%= paths.source.javascripts %>/prenotazioniApp',
         },
         plugins: [
             new webpack.DefinePlugin({

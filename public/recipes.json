@@ -1,0 +1,36 @@
+[
+    {
+        "title":"Tecnology radar",
+        "description":"Technology Radar is a tool that helps organizations to monitor their own discoveries. Keep track of your technologies according to your previous successes and failures. This project is freely based on technology-radar by [ThoughtWorks](https://www.thoughtworks.com/radar).",
+        "begin": "01/01/2016",
+        "end": "15/03/2016",
+        "technologies":"React, Flux, Node.js",
+        "url":"https://kata-team.github.io/technology-radar/",
+        "role": "full stack",
+        "company": "Kata Team",
+        "companyLogo": "https://avatars2.githubusercontent.com/u/24693556",
+        "companyUrl": "https://github.com/kata-team",
+        "images": "https://marcomontalbano.com/media/marko_cms/resource_31bd9659e4d45d0a60d7b97b537b043dcfd81c3d__900_12_90.jpg, https://marcomontalbano.com/media/marko_cms/resource_ab40b272df65df0200621d7cae9b5b45095b8225__900_12_90.jpg"
+    },
+    {
+        "title":"Ecommerce XYZ",
+        "description":"Developer the ecommerce XYZ",
+        "begin": "15/01/2016",
+        "company": "Sopra Steria spa",
+        "companyLogo": "https://marcomontalbano.com/media/marko_cms/resource_abd910e251572c3365f65e1726c04573dcdd555c.jpg",
+        "companyUrl": "http://www.soprasteria.it/",
+        "customer": "Kata Team",
+        "customerLogo": "https://avatars2.githubusercontent.com/u/24693556",
+        "customerUrl": "https://github.com/kata-team"
+    },
+    {
+        "title":"Grunt.js",
+        "description":"Grunt is rapidly becoming the de facto JavaScript build tool with high adoption and a growing ecosystem. While slower than newer alternatives, such as Gulp, in terms of file processing, Grunt covers a broader set of build-related activities, has a proliferation of plugins and makes it easy to author and publish self-written plugins to npm.",
+        "url":"http://gruntjs.com/"
+    },
+    {
+        "title":"Bower",
+        "description":"Keeping track of all these packages and making sure they are up to date (or set to the specific versions you need) is tricky. Bower to the rescue!\n\nBower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Bower doesn’t concatenate or minify code or do anything else - it just installs the right versions of the packages you need and their dependencies.",
+        "url":"https://bower.io/"
+    }
+]
