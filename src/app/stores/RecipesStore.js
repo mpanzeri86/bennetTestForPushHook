@@ -2,7 +2,7 @@ import _ from 'underscore';
 import EventEmitter from 'events';
 import AppDispatcher from '../dispatcher/AppDispatcher';
 import SearchConstants from '../constants/SearchConstants';
-import RecipesLoader from '../class/RecipesLoader'
+import RecipesLoader from '../class/RecipesLoader';
 import Recipe from '../class/Recipe';
 
 const recipesLoader = new RecipesLoader();
@@ -43,14 +43,13 @@ const search = (criteria) => {
 
 AppDispatcher.register((action) => {
     switch (action.actionType) {
-        case SearchConstants.CHANGE_CRITERIA:
-            search(action.criteria);
-            break;
-        default:
-            // no op
-            break;
-        }
+    case SearchConstants.CHANGE_CRITERIA:
+        search(action.criteria);
+        break;
+    default:
+        // no op
+        break;
     }
-);
+});
 
 export default RecipesStore;
