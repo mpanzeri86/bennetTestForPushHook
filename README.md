@@ -12,19 +12,6 @@ In short
 - ES6 and [React](https://facebook.github.io/react/)
 
 
-To-Do List
-----------
-
-- [ ] Integrate with mongodb by mongousejs
-- [ ] Integrate with redis
-- [ ] Integrate with Restify for expose rest services
-- [ ] Create a web socket 
-- [ ] Responsive Web Design
-- [ ] Search items in 'Libro ingredienti'
-    - [ ] search by `title`
-    - [ ] filter by `category`
-
-
 Getting Started
 ---------------
 
