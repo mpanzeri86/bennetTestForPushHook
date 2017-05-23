@@ -15,20 +15,20 @@
     </head>
     <body>
         <div id="widgetUserReg">asdqwe</div>
-        <script>
-            $(document).ready(function () {
+        <div id="script_section">
+            <script type="text/javascript">
+                $(document).ready(function () {
                     var options = {
                         presentation_manager: driveReg,
-                        afterConfirmMailRedirectUrl :  "" ,            //non necessario per TOTEM
-                        accessToken : "",                                            //non necessario per TOTEM
-                        salesforceToken : "",                                     //non necessario per TOTEM
-                        customerIdMDM : "",                                   //non valorizzare in registrazione
-                        channelType : "TOTEM"
+                        afterConfirmMailRedirectUrl : "",   //url di redirezione per verifica mail. Deve tornare in una pagina in cui è presente il widget
+                        accessToken : "",                   // solo per salesforce
+                        salesforceToken : "",               // non usato per bennet.com solo per salesforce
+                        customerIdMDM : "",                 // non usato per bennet.com / drive
+                        channelType : "TOTEM"               // Bennet.com / Crm (per saleforce)/ TOTEM
                     };
                     var reg_manager = new $.reg_manager(options);
                 });
-
-
-        </script>
+            </script>
+        </div>
     </body>
 </html>
